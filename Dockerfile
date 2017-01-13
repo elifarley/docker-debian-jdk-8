@@ -7,4 +7,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
   curl -fsSL https://raw.githubusercontent.com/elifarley/cross-installer/master/install.sh | sh && \
   xinstall save-image-info && \
   xinstall add jdk-8-nodesktop && \
-  xinstall cleanup
+  xinstall cleanup && \
+  xinstall meta remove
