@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:jessie-slim
 MAINTAINER Elifarley Cruz <elifarley@gmail.com>
 ENV \
   BASE_IMAGE=debian:jessie
